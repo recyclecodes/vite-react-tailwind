@@ -1,5 +1,5 @@
 // import { ReactElement } from 'react';
-import { ProgressBar } from './components';
+// import { ProgressBar } from './components';
 import { skillData } from '../../data/constants';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -31,9 +31,9 @@ const Card = () => {
               {skill.subtitle}
             </div>
           </div>
-          <div className="col-span-8 xl:col-span-8 md:col-span-12">
+          {/* <div className="col-span-8 xl:col-span-8 md:col-span-12">
             <ProgressBar progressPercentage={skill.progress} />
-          </div>
+          </div> */}
         </div>
       ))}
     </>

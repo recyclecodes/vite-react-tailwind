@@ -11,7 +11,7 @@ import Button from '../components/Button';
 const Contact = () => {
   return (
     <>
-      <section className="flex w-full min-h-full justify-center items-center">
+      <section id='contact' className="flex w-full min-h-full justify-center items-center">
         <div data-aos='fade-up' className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-zinc-900  w-full max-w-4xl p-8 shadow-lg text-white">
           <div className="flex flex-col space-y-8 justify-between">
             <div>
@@ -36,13 +36,13 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex space-x-4">
-              <a href="">
+              <a href="https://www.facebook.com/skiny.2013" target='_blank'>
                 <img src={facebook} alt="Facebook" width={25} />
               </a>
-              <a href="">
+              <a href="https://github.com/recyclecodes" target='_blank'>
                 <img src={github} alt="Github" width={25} />
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/in/g-serojales/">
                 <img src={linkedin} alt="LinkedIn" width={25} />
               </a>
             </div>
