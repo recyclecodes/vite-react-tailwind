@@ -11,7 +11,7 @@ const ProjectCard = () => {
     <>
       {projData.map((project) => (
         <div key={project.id} data-aos="flip-up" className="flex flex-col items-center">
-          <div className="max-w-md mx-auto bg-white  shadow-md overflow-hidden md:max-w-2xl mt-5 transform hover:scale-105 duration-500 ease-in-out">
+          <div className="max-w-md mx-auto bg-white  shadow-md overflow-hidden md:max-w-full md:max-h-48 mt-5 transform hover:scale-105 duration-500 ease-in-out">
             <div className="md:flex">
               <div className="md:flex-shrink-0">
                 <img
