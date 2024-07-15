@@ -12,7 +12,7 @@ const Button: React.FC<ButtonProps> = ({
   fullWidth,
 }) => {
   return (
-    <button
+    <button type='submit'
       className={`0 relative min-h-[50px] overflow-hidden border transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-black before:transition-all before:duration-500 flex w-full h-[77px] font-medium justify-center items-center gap-1 px-7 py-4 text-lg leading-none
       ${
         backgroundColor

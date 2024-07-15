@@ -10,13 +10,13 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="flex flex-col items-center justify-start w-[90%] mx-auto min-h-full"
+      className="flex flex-col mb-12 items-center justify-start w-full mx-auto min-h-full"
     >
       <div className="relative my-24">
         <div className="absolute w-16 h-12 left-20 top-2 bg-accent"></div>
         <h2 className="text-4xl lg:text-5xl font-bold ">Skills.</h2>
       </div>
-      <div data-aos='fade-up' className="grid items-center grid-rows-3 xl:grid-flow-col xl:w-[70%] w-[80%] gap-x-8 gap-y-8 lg:gap-y-16">
+      <div data-aos='fade-up' className="grid grid-rows-6 grid-flow-col xl:grid-rows-3 xl:grid-flow-col xl:w-[70%] w-[80%] gap-x-8 gap-y-8 lg:gap-y-16">
         <SkillCard />
       </div>
     </section>

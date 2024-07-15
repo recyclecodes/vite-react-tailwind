@@ -16,3 +16,7 @@ export { default as mapPin } from './map-pin-fill.svg';
 export { default as facebook } from './facebook-box-fill.svg';
 export { default as github } from './github-fill.svg';
 export { default as linkedin } from './linkedin-box-fill.svg';
+export { default as node } from './node.svg';
+export { default as react } from './react.svg';
+export { default as mongo } from './mongo.svg';
+

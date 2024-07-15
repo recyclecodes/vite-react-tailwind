@@ -11,8 +11,14 @@ import Button from '../components/Button';
 const Contact = () => {
   return (
     <>
-      <section id='contact' className="flex w-full min-h-full justify-center items-center">
-        <div data-aos='fade-up' className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-zinc-900  w-full max-w-4xl p-8 shadow-lg text-white">
+      <section
+        id="contact"
+        className="flex w-full min-h-full justify-center items-center"
+      >
+        <div
+          data-aos="fade-up"
+          className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-zinc-900  w-full max-w-4xl p-8 shadow-lg text-white"
+        >
           <div className="flex flex-col space-y-8 justify-between">
             <div>
               <h1 className="font-bold text-4xl tracking-wide">Contact Me</h1>
@@ -36,10 +42,10 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex space-x-4">
-              <a href="https://www.facebook.com/skiny.2013" target='_blank'>
+              <a href="https://www.facebook.com/skiny.2013" target="_blank">
                 <img src={facebook} alt="Facebook" width={25} />
               </a>
-              <a href="https://github.com/recyclecodes" target='_blank'>
+              <a href="https://github.com/recyclecodes" target="_blank">
                 <img src={github} alt="Github" width={25} />
               </a>
               <a href="https://www.linkedin.com/in/g-serojales/">
@@ -48,13 +54,18 @@ const Contact = () => {
             </div>
           </div>
           <div className="bg-white rounded-sm shadow-lg p-8 text-black">
-            <form action="" className="flex flex-col space-y-4">
+            <form
+              action="https://formsubmit.co/gaserojales@gmail.com"
+              className="flex flex-col space-y-4"
+              method='POST'
+            >
               <div>
                 <label htmlFor="" className="text-sm">
                   Full name
                 </label>
                 <input
                   type="text"
+                  name="name"
                   placeholder="Full name"
                   className="ring-1 rounded-sm ring-gray-300 w-full round-sm px-4 py-2 outline-none focus:ring-2 focus:ring-primary"
                 />
@@ -66,6 +77,7 @@ const Contact = () => {
                 </label>
                 <input
                   type="email"
+                  name="email"
                   placeholder="Email address"
                   className="ring-1 rounded-sm ring-gray-300 w-full round-sm px-4 py-2 outline-none focus:ring-2 focus:ring-primary"
                 />
@@ -76,6 +88,7 @@ const Contact = () => {
                 </label>
                 <textarea
                   placeholder="Message"
+                  name="message"
                   rows={4}
                   className="ring-1 rounded-sm ring-gray-300 w-full round-sm px-4 py-2 outline-none focus:ring-2 focus:ring-primary"
                 />

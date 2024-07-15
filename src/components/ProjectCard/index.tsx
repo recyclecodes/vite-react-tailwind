@@ -7,12 +7,11 @@ const ProjectCard = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
-
   return (
     <>
       {projData.map((project) => (
-        <div key={project.id} data-aos="flip-up" className="flex items-center justify-center">
-          <div className="max-w-md bg-white shadow-md overflow-hidden md:max-w-2xl mt-5 transform hover:scale-105 duration-500 ease-in-out">
+        <div key={project.id} data-aos="flip-up" className="flex flex-col items-center">
+          <div className="max-w-md mx-auto bg-white  shadow-md overflow-hidden md:max-w-2xl mt-5 transform hover:scale-105 duration-500 ease-in-out">
             <div className="md:flex">
               <div className="md:flex-shrink-0">
                 <img
@@ -21,14 +20,13 @@ const ProjectCard = () => {
                   alt=""
                 />
               </div>
-              <div className="p-8 flex flex-col justify-between">
+              <div className="p-8">
                 <div className="uppercase tracking-wide text-sm text-hero font-semibold">
                   {project.subtitle}
                 </div>
                 <a
                   href={project.link}
                   target="_blank"
-                  rel="noopener noreferrer"
                   className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
                 >
                   {project.title}

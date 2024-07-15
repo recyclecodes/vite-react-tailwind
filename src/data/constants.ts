@@ -8,6 +8,9 @@ import {
   next,
   prisma,
   tailwind,
+  node,
+  react,
+  mongo,
 } from '../assets/icons';
 import { Navs, Projects, Skills } from '../types/constant';
 import {
@@ -83,6 +86,27 @@ export const skillData: Skills[] = [
     icon: tailwind,
     title: 'Tailwind',
     subtitle: 'Utility-first CSS development.',
+    progress: 70,
+  },
+  {
+    id: 10,
+    icon: node,
+    title: 'Node',
+    subtitle: 'JS runtime for server-side applications.',
+    progress: 70,
+  },
+  {
+    id: 11,
+    icon: mongo,
+    title: 'Mongo',
+    subtitle: 'NoSQL database using JSON-like documents.',
+    progress: 70,
+  },
+  {
+    id: 12,
+    icon: react,
+    title: 'React',
+    subtitle: 'Library for building dynamic user interfaces.',
     progress: 70,
   },
 ];

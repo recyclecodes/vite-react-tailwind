@@ -13,17 +13,17 @@ const Card = () => {
     <>
       {skillData.map((skill) => (
         <div data-aos='flip-up'
-          className="grid grid-cols-8 xl:grid-cols-8 md:grid-cols-12  gap-x-1 w-full "
+          className="grid grid-cols-8 xl:grid-cols-8 items-center md:grid-cols-12 shadow-md h-24 gap-x-1 w-full "
           key={skill.id}
         >
           {/* <div className="h-4"> */}
           <img
             src={skill.icon}
             alt="Skills"
-            className="col-span-1 xl:col-span-1 md:col-span-1 items-center justify-self-start mt-2 h-11 w-11"
+            className="col-span-2 xl:col-span-2 md:col-span-2 pl-5 items-center justify-self-start mt-2 h-11 w-16"
           />
           {/* </div> */}
-          <div className="col-span-7 xl:col-span-7 md:col-span-11 flex flex-col justify-center">
+          <div className="col-span-6 xl:col-span-6 md:col-span-10 flex flex-col justify-center">
             <div className="text-left text-black text-xl font-semibold leading-tight">
               {skill.title}
             </div>
