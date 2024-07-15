@@ -1,4 +1,4 @@
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
 import { navLinks } from '../../../data/constants';
 
 
@@ -8,14 +8,14 @@ const MobileNav = () => {
       <ul className="text-center text-xl p-28">
         {navLinks.map((item) => (
           <li className='my-4 py-4 border-b border-gray-300' key={item.label}>
-            <Link spy={true} smooth={true} duration={500} to={item.href}>
+            {/* <Link spy={true} smooth={true} duration={500} to={item.href}> */}
               <a
                 href={item.href}
                 className="leading-normal text-xl text-navlink font-medium"
               >
                 {item.label}
               </a>
-            </Link>
+            {/* </Link> */}
           </li>
         ))}
       </ul>

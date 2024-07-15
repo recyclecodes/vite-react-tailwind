@@ -15,6 +15,8 @@ import {
   projectTwo,
   projectThree,
   projectFour,
+  projectFive,
+  projectSix,
 } from '../assets/image';
 
 // import { SiHtml5,SiCss3 } from "react-icons/si";
@@ -109,19 +111,21 @@ export const projData: Projects[] = [
     id: 1,
     title: 'Tutorial: NFT Card Component',
     imgURL: projectOne,
-    subtitle: 'Blog',
-    link: 'https://gaserojales.hashnode.dev/building-a-nft-card-component-with-nextjs-and-tailwind-css',
+    subtitle: 'Component',
+    link: 'https://nft-preview-card-rho-woad.vercel.app/',
     description:
-      'Crafting Engaging Digital Collectibles: A Hands-On Guide to Building an NFT Card Component with Next.js and Tailwind CSS.',
+      'Crafting Engaging Digital Collectibles with Next.js and Tailwind CSS.',
+    repo: 'https://github.com/recyclecodes/nft-preview-card',
   },
   {
     id: 2,
     title: 'Tindog: Tinder for Dogs',
     imgURL: projectTwo,
     subtitle: 'Landing Page',
-    link: 'https://github.com/recyclecodes/tindog',
+    link: 'https://tindog-lemon-eight.vercel.app/',
     description:
       'Tindog is a vibrant and playful landing page designed to introduce the concept of "Tinder for Dogs" to pet lovers worldwide. This landing page serves as the gateway to a fun and interactive platform where dog owners can connect, socialize, and arrange playdates for their furry companions. ',
+    repo: 'https://github.com/recyclecodes/tindog',
   },
   {
     id: 3,
@@ -139,5 +143,26 @@ export const projData: Projects[] = [
     link: 'https://qr-code-component-ten-rho.vercel.app/',
     description:
       'This project aims to develop a QR code component using Next.js, a popular React framework for building web applications, and Tailwind CSS, a utility-first CSS framework for designing modern and responsive web interfaces.',
+    repo: 'https://github.com/recyclecodes/qr-code-component',
+  },
+  {
+    id: 5,
+    title: 'Fit Flex',
+    imgURL: projectFive,
+    subtitle: 'React App',
+    link: 'https://fit-flex-theta.vercel.app/',
+    description:
+      'FitFlex is a web app that offers a wide range of exercise routines tailored to users fitness goals. It features categorized exercises by body parts, enabling users to discover and manage workouts easily. FitFlex also integrates with external APIs for exercise videos, enhancing the user experience.',
+    repo: 'https://github.com/recyclecodes/vite-react-fit-flex',
+  },
+  {
+    id: 6,
+    title: 'Inventory Control System',
+    imgURL: projectSix,
+    subtitle: 'Fullstack Nextjs (SSR)',
+    link: 'https://ics-next-fullstack-y43w.vercel.app/',
+    description:
+      'The inventory control system manages stock levels and tracks inventory movements in real-time. It supports multiple users with different roles (Superadmin, Admin, User) across companies, allowing efficient management of items, transfers between users and companies, and notifications for seamless operations and oversight.',
+    repo: 'https://github.com/recyclecodes/ics-next-fullstack',
   },
 ];

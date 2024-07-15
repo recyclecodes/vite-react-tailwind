@@ -40,4 +40,5 @@ export interface Projects {
   subtitle?: string;
   description?: string;
   link?: string;
+  repo?: string;
 }

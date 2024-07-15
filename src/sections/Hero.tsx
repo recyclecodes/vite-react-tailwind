@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { article } from '../assets/icons';
 import { profilePic } from '../assets/image';
 import Button from '../components/Button';
 import AOS from 'aos';
@@ -51,7 +50,6 @@ const Hero = () => {
             target="_blank"
           >
             <Button
-              iconURL={article}
               label="Resume"
               backgroundColor="bg-white md:w-44"
               textColor="text-black"
@@ -69,8 +67,8 @@ const Hero = () => {
         <img
           src={profilePic}
           alt="profile"
-          width={397}
-          height={513}
+          width={800}
+          height={1000}
           className="relative z-10 object-contain"
         />
       </div>

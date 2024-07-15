@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="flex justify-between items-center max-xl:flex-col-reverse gap-10 lg:w-[65%] mx-auto min-h-full"
+      className="flex justify-between items-center max-xl:flex-col-reverse gap-10 lg:w-[65%] mx-auto h-full"
     >
       <div data-aos='fade-right'
         className="flex-1"
