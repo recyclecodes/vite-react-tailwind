@@ -46,7 +46,7 @@ const Hero = () => {
           </a>
           <a
             className="md:w-44 w-full"
-            href="https://drive.google.com/file/d/14r3RCe_zy_dZWVPrzCCxD2mHtNFOJJS-/view?usp=sharing"
+            href="https://drive.google.com/file/d/1y6G9FdIsEQ9pGwMGsPxx1uVF_7KEeIwo/view?usp=sharing"
             target="_blank"
           >
             <Button
